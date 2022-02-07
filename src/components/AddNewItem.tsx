@@ -25,6 +25,7 @@ const AddNewItem = ({
       />
     )
   }
+
   return (
     <AddItemButton dark={dark} onClick={() => setShowForm(true)}>
       {toggleButtonText}
